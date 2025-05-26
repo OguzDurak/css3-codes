@@ -1,0 +1,29 @@
+/* tag ile kulanımı */
+
+/* p{
+    background-color: black;
+}
+
+/* id ile kullanım */
+/* #parag_id{
+    background-color: orange
+} */
+
+/* class ile kullanım */    
+
+/* .parag_class{
+    background-color: blue;
+}    */ 
+
+/*color,background-color,!important*/
+
+#parag_id{
+    color: red;
+    color:rgb(255, 0, 0);
+    color:rggb(255,0,0,0.9);
+    color:hsl(0, 1000%, 50%);
+    color:hsla(0, 100%, 50%, 0.9);
+
+    background-color: blue;
+    background-color: black!important;
+}
