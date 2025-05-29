@@ -135,5 +135,29 @@
     cursor: pointer;
     cursor: move;
     cursor: text;
+}
+
+
+/* transition_transform */
+
+.transition_transform{
+    width: 75%;
+    height: 100px;
+    background-color: blue;
+    color: black;
+    padding: 10px;
+    transition: width 3s ease-in-out 3s, background-color 0.5 linear;
+    transition: 3s all;
+    box-shadow: -1px 1px 4px 1px rgba(0, 0, 0, 0.5);
+    
    
+}
+
+.transition_transform:hover{
+    width: 100%;
+    background-color: black;
+    color: blue;
+    transform: rotate(45deg);
+    transform: scale(1.5);
+    transform: skew(30deg, 20deg);
 }
