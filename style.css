@@ -58,6 +58,8 @@
   border-top-left-radius: 15px;
 }
 
+/* text */
+
 #parag_id4 {
   font-family: "Nunito", sans-serif;
   color: lightblue;
@@ -73,4 +75,31 @@
   word-spacing: 7px;
   letter-spacing: 2px;
   text-shadow: 2px 30px 4px yellow;
+}
+
+/* column count */
+.column-cotainer{
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 2px solid red;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+/* line clamp */
+
+.line-clamp4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+/* other for browser */
+
+    display: -moz-box;
+    -moz-line-clamp: 4; /* Number of lines to show */
+    -moz-box-orient: vertical;
+    overflow: hidden;
+
+
 }
