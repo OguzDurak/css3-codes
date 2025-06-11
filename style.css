@@ -263,3 +263,25 @@ header {
   width: 100%;
   height: 75vh; /* view port tarayıcının bize sağladığı alan */
 }
+
+/* float_examples */
+
+.float_examples {
+  float: right;
+  margin-left: 10px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* clip-path */
+
+#clip_path_id{
+    background-color: yellow;
+    min-height: 300px;
+    max-width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+}
