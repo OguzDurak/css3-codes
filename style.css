@@ -227,3 +227,19 @@
 .menu_table tbody tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+
+/* rem=html em=body calc = hesaplama */
+
+/* html{
+font-size: 16px;
+} */
+
+/* body{
+    font-size: 16px;
+} */
+
+/* #parag6{
+/* font-size: 2rem; */
+/* font-size: 2em; */
+/* font-size: calc(2em + 10px  ) ;
+} */ */
