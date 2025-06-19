@@ -365,7 +365,6 @@ a:active{
   }
 }
 
-
 @media (min-width: 769px) and (max-width: 991px) {
   .responsive_design {
     background-color: yellow;
@@ -391,4 +390,37 @@ a:active{
     width: 24%;
     display: inline-block;
   }
+}
+
+.flexbox1 {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.flexbox2 {
+  display: flex;
+  margin-top: 10px;
+  padding: 15px;
+  color: white;
+  justify-content: space-between;
+  background-color: blue;
+}
+
+.flexbox3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.flexbox3 .child{
+  margin: 12px;
+  padding: 12px;
+  border: 1px solid yellow;
 }
